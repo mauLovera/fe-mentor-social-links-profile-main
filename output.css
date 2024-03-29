@@ -574,10 +574,6 @@ body {
   margin-bottom: 26px;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -600,6 +596,10 @@ body {
 
 .min-w-\[384px\] {
   min-width: 384px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -651,10 +651,6 @@ body {
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .text-center {
