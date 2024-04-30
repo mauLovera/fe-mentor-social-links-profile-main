@@ -558,6 +558,16 @@ body {
   --tw-contain-style:  ;
 }
 
+.my-\[\] {
+  margin-top: ;
+  margin-bottom: ;
+}
+
+.my-\[116px\] {
+  margin-top: 116px;
+  margin-bottom: 116px;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -586,28 +596,8 @@ body {
   width: 100%;
 }
 
-.min-w-\[384px\] {
-  min-width: 384px;
-}
-
-.min-w-\[327px\] {
-  min-width: 327px;
-}
-
 .max-w-\[384px\] {
   max-width: 384px;
-}
-
-.max-w-\[\] {
-  max-width: ;
-}
-
-.max-w-\[3\] {
-  max-width: 3;
-}
-
-.max-w-\[327px\] {
-  max-width: 327px;
 }
 
 .cursor-pointer {
@@ -663,6 +653,11 @@ body {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-center {
@@ -726,11 +721,7 @@ body {
   color: hsl(0 0% 8% / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:max-w-\[384px\] {
-    max-width: 384px;
-  }
-
+@media (min-width: 400px) {
   .sm\:p-10 {
     padding: 2.5rem;
   }

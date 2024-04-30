@@ -9,6 +9,9 @@ module.exports = {
 			"off-black": "hsl(0, 0%, 8%)",
 			"white": "hsl(0, 0%, 100%)",
 		},
+		screens: {
+			sm: "400px"
+		}
 	},
 	plugins: [],
 }
