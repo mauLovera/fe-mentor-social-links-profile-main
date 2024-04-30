@@ -558,29 +558,12 @@ body {
   --tw-contain-style:  ;
 }
 
-.my-\[116px\] {
-  margin-top: 116px;
-  margin-bottom: 116px;
-}
-
 .mb-1 {
   margin-bottom: 0.25rem;
 }
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mt-\[116px\] {
-  margin-top: 116px;
-}
-
-.mb-auto {
-  margin-bottom: auto;
-}
-
-.inline-block {
-  display: inline-block;
 }
 
 .flex {
@@ -591,10 +574,6 @@ body {
   height: 88px;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
 .min-h-\[100svh\] {
   min-height: 100svh;
 }
@@ -603,7 +582,7 @@ body {
   width: 100%;
 }
 
-.max-w-\[384px\] {
+.max-w-card {
   max-width: 384px;
 }
 
@@ -639,17 +618,17 @@ body {
   border-radius: 0.75rem;
 }
 
-.bg-dark-grey {
+.bg-neutral-dark-grey {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 12% / var(--tw-bg-opacity));
 }
 
-.bg-grey {
+.bg-neutral-grey {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 20% / var(--tw-bg-opacity));
 }
 
-.bg-off-black {
+.bg-neutral-off-black {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 8% / var(--tw-bg-opacity));
 }
@@ -671,12 +650,9 @@ body {
   text-align: center;
 }
 
-.text-\[14px\] {
-  font-size: 14px;
-}
-
-.text-\[24px\] {
-  font-size: 24px;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-sm {
@@ -700,12 +676,12 @@ body {
   line-height: 1.5;
 }
 
-.text-primary {
+.text-primary-green {
   --tw-text-opacity: 1;
   color: hsl(75 94% 57% / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-neutral-white {
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
@@ -722,12 +698,12 @@ body {
   src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
 }
 
-.hover\:bg-primary:hover {
+.hover\:bg-primary-green:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(75 94% 57% / var(--tw-bg-opacity));
 }
 
-.hover\:text-off-black:hover {
+.hover\:text-neutral-off-black:hover {
   --tw-text-opacity: 1;
   color: hsl(0 0% 8% / var(--tw-text-opacity));
 }
@@ -743,25 +719,12 @@ body {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.focus-visible\:ring-primary:focus-visible {
+.focus-visible\:ring-primary-green:focus-visible {
   --tw-ring-opacity: 1;
   --tw-ring-color: hsl(75 94% 57% / var(--tw-ring-opacity));
 }
 
 @media (min-width: 400px) {
-  .sm\:my-0 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  .sm\:mt-0 {
-    margin-top: 0px;
-  }
-
-  .sm\:justify-center {
-    justify-content: center;
-  }
-
   .sm\:p-10 {
     padding: 2.5rem;
   }
