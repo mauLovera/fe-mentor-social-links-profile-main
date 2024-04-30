@@ -558,12 +558,25 @@ body {
   --tw-contain-style:  ;
 }
 
+.my-\[116px\] {
+  margin-top: 116px;
+  margin-bottom: 116px;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mt-\[116px\] {
+  margin-top: 116px;
+}
+
+.mb-auto {
+  margin-bottom: auto;
 }
 
 .inline-block {
@@ -732,6 +745,19 @@ body {
 }
 
 @media (min-width: 400px) {
+  .sm\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
   .sm\:p-10 {
     padding: 2.5rem;
   }
